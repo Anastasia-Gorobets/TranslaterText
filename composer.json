@@ -7,11 +7,23 @@
         }
     ],
     "require": {
-        "stichoza/google-translate-php": "~3.2"
+        "stichoza/google-translate-php": "~3.2",
+        "squizlabs/php_codesniffer": "^2.3"
     },
     "autoload": {
         "psr-4": {
-            "Source\\": "src/"
+            "Source\\": "src/",
+            "Statickidz\\": "src/"
         }
-    }
+    },
+    "keywords": [
+        "statickidz",
+        "google",
+        "translator",
+        "translate",
+        "api",
+        "free",
+        "siegsb"
+    ]
+
 }

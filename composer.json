@@ -1,0 +1,17 @@
+{
+    "name": "nastya/text-translater",
+    "authors": [
+        {
+            "name": "Nastya",
+            "email": "nastya.gorobets95@gmail.com"
+        }
+    ],
+    "require": {
+        "stichoza/google-translate-php": "~3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        }
+    }
+}
